@@ -7,8 +7,6 @@ We fine-tuned a pre-trained ViT model on the CelebA Spoof dataset following thes
 1. **Dataset Preparation**: Splitting the `nguyenkhoa/celeba-spoof-for-face-antispoofing-test` dataset into training and testing sets.
 2. **Preprocessing**: Organizing images into `celeba_spoof/train` and `celeba_spoof/test` directories.
 3. **Model Fine-Tuning**: Adapting a pre-trained Vision Transformer (ViT) model for binary classification.
-4. **Evaluation**: Assessing model performance using accuracy, precision, recall, and confusion matrix.
-5. **Testing**: Classifying real and spoofed images.
 
 ## Dataset
 - **CelebA Spoof Dataset**: Contains images labeled as real or spoofed, used for training and testing.
